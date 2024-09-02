@@ -3,13 +3,12 @@ from htmlnode import LeafNode
 
 
 def test():
-    dic = {"a": 1, "b": 2}
-
-    return 2 in dic.values()
+    a = "#### TEXTO"
+    print(a.split(" ")[0].count("#"))
 
 
 def main():
     pass
 
 
-main()
+test()
